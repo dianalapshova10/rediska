@@ -15,4 +15,4 @@ def step(len_step:int):
     return len_step
 
 if __name__ == "__main__":
-    uvicorn.run("app:untitled-2", host = "0.0.0.0", port = 10007)
+    uvicorn.run("untitled-2:app", host = "0.0.0.0", port = 10007)
